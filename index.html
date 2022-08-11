@@ -1,36 +1,26 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
 <head>
-    <meta charset=UTF-8>
-    <meta http-equiv=X-UA-Compatible content=IE=edge>
-    <meta name=viewport content=width=device-width, initial-scale=1.0>
-   
-  
-    <meta http-equiv=X-UA-Compatible content=IE=edge>
-    <meta name=viewport content=width=device-width, initial-scale=1.0>
-    <meta name=description content=>
-    <meta name=keywords content=>
-    <meta name=author content=satinder singh>
-
-    <meta property=og:url content= />
-    <meta property=og:type content= />
-    <meta property=og:title content=W />
-    <meta property=og:description content= />
-    <meta property=og:image content= />
-
-    <meta name=twitter:card content=summary />
-    <meta name=twitter:site content= />
-    <meta name=twitter:creator content= />
-    <meta property=og:url content= />
-    <meta property=og:title content=/>
-    <meta property=og:description content= />
-    <meta property=og:image content= />
- 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>weather</title>
-    <link rel=stylesheet href=css/style.css>
-
 </head>
 <body>
+    <input type="radio" id="metric" name="units" value="metric">
+    <label for="metric">metric</label>
+    <input type="radio" id="kelvin" name="units" value="kelvin">
+    <label for="kelvin">kelvin</label>
+<label for="input_city"></label>    
+<input type="text" id="input_city">
+<button id="submit">search</button>
+<div id="box">
 
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
